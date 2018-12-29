@@ -103,7 +103,7 @@ export default class Sidebar extends Component {
 const styles = StyleSheet.create({
     
     sideBar: {
-        flex: 0.23,
+        flex: 0.25,
         borderColor: "steelblue",
         backgroundColor:'white',
         // borderWidth: 13,
