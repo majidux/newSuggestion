@@ -40,20 +40,19 @@ export default class Sidebar extends Component {
                         <Text
                             style={{
                                 color: "#2d3f4f",
-                                fontFamily: "IRAN Sans Web Medium",
                                 fontSize: 18,
                                 fontWeight: "500"
                             }}
                         >
-                            رویداد ها
+                            دسته بندی
                         </Text>
                     </View>
                     <View style={styles.listMonth}>
                         <View style={styles.listHeader}>
-                            <View style={styles.buttonUpImageWrapper}>
+                            <View>
                                 <Image source={require("../image/buttonUp.png")}/>
                             </View>
-                            <View style={styles.monthTextWrapper}>
+                            <View>
                                 <Text style={{fontWeight:'bold',fontSize:15}}>۱ پروداکت ریلیز</Text>
                             </View>
                         </View>
@@ -67,10 +66,10 @@ export default class Sidebar extends Component {
                     
                     <View style={styles.listMonth}>
                         <View style={styles.listHeader}>
-                            <View style={styles.buttonUpImageWrapper}>
+                            <View>
                                 <Image source={require("../image/buttonUp.png")}/>
                             </View>
-                            <View style={styles.monthTextWrapper}>
+                            <View>
                                 <Text style={{fontWeight:'bold',fontSize:15}}>۲ پروداکت ریلیز</Text>
                             </View>
                         </View>
@@ -83,10 +82,10 @@ export default class Sidebar extends Component {
                     </View>
                     <View style={styles.listMonth}>
                         <View style={styles.listHeader}>
-                            <View style={styles.buttonUpImageWrapper}>
+                            <View>
                                 <Image source={require("../image/Icon-Shade.png")}/>
                             </View>
-                            <View style={styles.monthTextWrapper}>
+                            <View>
                                 <Text style={{fontWeight:'bold',fontSize:15}}>۱ پروداکت ریلیز</Text>
                             </View>
                         </View>
