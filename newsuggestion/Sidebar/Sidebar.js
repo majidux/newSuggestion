@@ -54,17 +54,14 @@ export default class Sidebar extends Component {
                                 <Image source={require("../image/buttonUp.png")}/>
                             </View>
                             <View style={styles.monthTextWrapper}>
-                                <Text>مهر</Text>
+                                <Text style={{fontWeight:'bold',fontSize:15}}>۱ پروداکت ریلیز</Text>
                             </View>
                         </View>
                         <View style={styles.listDetails}>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}>رویداد رونمایی از نسخه ی
-                                جدید پیام گستر</Text>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}>جلسات آموزشی نسخه ی
-                                جدید</Text>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}>کارگاه دو روزه</Text>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}> همایش بررسی نقش سی آر ام
-                                روی بهروری</Text>
+                            <Text style={styles.textStyle}>(۹) پیام گستر</Text>
+                            <Text style={styles.textStyle}>(۴) ماژول های عمومی</Text>
+                            <Text style={styles.textStyle}>(۸) ماژول های عمومی</Text>
+                            <Text style={styles.textStyle}>(۲۱) همه موضوعات</Text>
                         </View>
                     </View>
                     
@@ -74,17 +71,27 @@ export default class Sidebar extends Component {
                                 <Image source={require("../image/buttonUp.png")}/>
                             </View>
                             <View style={styles.monthTextWrapper}>
-                                <Text>شهریور</Text>
+                                <Text style={{fontWeight:'bold',fontSize:15}}>۲ پروداکت ریلیز</Text>
                             </View>
                         </View>
                         <View style={styles.listDetails}>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}>رویداد رونمایی از نسخه ی
-                                جدید پیام گستر</Text>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}>جلسات آموزشی نسخه ی
-                                جدید</Text>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}>کارگاه دو روزه</Text>
-                            <Text style={{fontSize: 14, color: '#6a7782', fontWeight: '600'}}> همایش بررسی نقش سی آر ام
-                                روی بهروری</Text>
+                            <Text style={styles.textStyle}>(۹) پیام گستر</Text>
+                            <Text style={styles.textStyle}>(۴) ماژول های عمومی</Text>
+                            <Text style={styles.textStyle}>(۸) ماژول های عمومی</Text>
+                            <Text style={styles.textStyle}>(۲۱) همه موضوعات</Text>
+                        </View>
+                    </View>
+                    <View style={styles.listMonth}>
+                        <View style={styles.listHeader}>
+                            <View style={styles.buttonUpImageWrapper}>
+                                <Image source={require("../image/Icon-Shade.png")}/>
+                            </View>
+                            <View style={styles.monthTextWrapper}>
+                                <Text style={{fontWeight:'bold',fontSize:15}}>۱ پروداکت ریلیز</Text>
+                            </View>
+                        </View>
+                        <View style={styles.listDetails}>
+
                         </View>
                     </View>
                 </View>
@@ -116,6 +123,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: "#eeeeee",
         paddingHorizontal: 10,
+
     },
     noficationPanelHeader: {
         flex: 0.25,
@@ -177,7 +185,10 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         justifyContent: "space-evenly",
         paddingRight: 20,
+    },
+    textStyle:{
+        fontSize: 14,
+        color: '#ff795f',
     }
     
-    
-})
+});
